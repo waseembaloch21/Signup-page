@@ -1,0 +1,144 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.form-wrapper{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+  padding: 0 20px;
+}
+.form-box{
+  width: 400px;
+  border: 1px solid #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #fff, -2px -2px 5px #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 25px;
+  backdrop-filter: blur(10px);
+}
+.form-box .signup-header{
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box .signup-header h2{
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+.signup-body{
+  width: 100%;
+}
+.signup-body form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.signup-body form .input-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+.signup-body form .input-box:nth-child(4){
+  margin-bottom: 20px;
+}
+.signup-body form .input-box span{
+  color: red;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+.signup-body form .input-box i{
+  position: absolute;
+  top: 35px;
+  right: 10px;
+  font-size:22px;
+  color: #ff0000;
+}
+.signup-body form .input-box input{
+  width: 100%;
+  height: 40px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+}
+.signup-body form .input-box input:focus{
+  background: #151515;
+  box-shadow: 2px 2px 4px #fff, -2px -2px 4px #fff;
+  color: #fff;
+  border-radius: 8px;
+}
+.signup-body form .input-box input:focus::placeholder{
+  color: #fff;
+}
+.signup-body form .input-box label{
+  font-size: 17px;
+  color: #fff;
+}
+.signup-body form .btn-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-body form .btn-box input{
+  width: 210px;
+  padding: 7px 0;
+  font-size: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  transition: 0.3s ease-in-out;
+  background-color: #fff;
+  color: #151515;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+form .btn-box input:hover{
+  background: black;
+  color: #fff;
+}
+.form-box footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+footer p{
+  color: #fff;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+footer p a{
+  text-decoration: none;
+  color: #08adee;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
